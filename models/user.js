@@ -6,6 +6,7 @@ var UserSchema = new Schema({
   // name: { type: String, default: '' },
   // email: { type: String, default: '' },
   username:{},
+  token:{},
   vcode:{},
   password:{}
 });

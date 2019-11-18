@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const DB_URL = 'mongodb://localhost:27017/xiaohongshu';
+const DB_URL = 'mongodb://114.55.145.3:27017/mangostreet';
 
 
 mongoose.connect(DB_URL);

@@ -14,7 +14,8 @@ router.post('/v', function(req, res, next) {
     let user = new User({
       username:username,
       vcode:vcode,
-      password:""
+      password:"",
+      token:username
     });
     user.save(function (err, result) {
       if (err) {
